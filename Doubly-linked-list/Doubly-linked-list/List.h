@@ -11,6 +11,8 @@ class List
 public:
 	List();
 	~List();
+	node* CreateNode(int, int);
+	void InsertNode(int, int);
 
 };
 
